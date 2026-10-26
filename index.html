@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Enter in a number to find out if it is even or odd</p>
+        <input type = "number" name="inputvalue">
+        <button id = "myB" onclick="checkInput()">Check</button>
+        <p id="output"></p>
+        <script>
+            // input = document.getElementsByName(inputvalue).value
+            function checkInput(){
+            //     inputs = Array[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 83, 45, 64, 18, -47, 31, 75, 39, 59, -13]
+            // }
+            ran = math.random() * inputs.length()
+            // input = inputs[ran]
+            input = 2
+            answer = ""
+            if (input % 2 == 0){
+                answer = "even";
+            }
+            else{
+                answer = "odd";
+            }
+            document.getElementById("output").textContent ='hello' + input + ' is ' + answer;
+        }
+        </script>
+    </body>
+</html>
